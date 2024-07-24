@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Layout, Menu, Image, Divider, Typography, Space } from "antd";
+import { Layout, Menu, Divider } from "antd";
 import { dashboardApi } from "../store/dashboard/dashboardApis";
 import { Link } from "react-router-dom";
-import { appLogo, profileImg } from "../utils/images";
+import { appLogo } from "../utils/images";
 import UserInfo from "./UserInfo";
 
 const { Sider } = Layout;
